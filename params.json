@@ -1,0 +1,7 @@
+{
+  "name": "Css",
+  "tagline": "CSS files",
+  "body": "<!DOCTYPE HTML>\r\n<META HTTP-EQUIV=\"REFRESH\" CONTENT=\"5\">\r\n<html>\r\n\r\n<head>\r\n\r\n<meta content=\"text/html; charset=utf-8\">\r\n<link rel='stylesheet' type='text/css' href='http://www.instructables.com/files/orig/FGU/L48I/I98BK1X6/FGUL48II98BK1X6.css'>\r\n<title>ESP8266 - Power Switch Controller</title>\r\n\r\n</head>\r\n\r\n<body>\r\n<center>\r\n\r\n<h1>ESP8266 MAINS Power Dimmer Controller</h1>\r\n<br /><br />\r\n\r\n<form action=\"/\" name=\"dimmer\" oninput=\"outputUpdate(cmd.value)\" method=\"POST\">\r\n\r\n<font color=red><b>ON </b></font>\r\n<input style=\"width:550px; height:50px\" type=\"range\" name=\"cmd\" id=\"cmd\" value=\"2.5\" min=0 max=2.8 step=0.1 />\r\n\r\n<font color=red><b>OFF</b></font>\r\n\r\n</form>\r\n\r\n<br>Dimmer Value: <b>2.5 pts</b>\r\n\r\n</center>\r\n\r\n<script type=\"text/javascript\">function outputUpdate(dim) {document.querySelector(\"#cmd\").value = dim;document.forms[0].submit();}\r\n</script>\r\n\r\n</body>\r\n\r\n</html>",
+  "google": "",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
